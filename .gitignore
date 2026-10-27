@@ -1,0 +1,6 @@
+# Carpeta compilada de Java
+fixhome-api/target/
+
+# Dependencias de React (se recrean con npm install)
+fixhome-login/node_modules/
+fixhome-login/dist/

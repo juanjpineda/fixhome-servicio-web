@@ -1,0 +1,23 @@
+### Registro válido
+POST http://localhost:8080/fixhome-api/api/registro
+Content-Type: application/json
+
+{"usuario": "juanpineda", "contrasena": "clave123"}
+
+### Registro con datos inválidos
+POST http://localhost:8080/fixhome-api/api/registro
+Content-Type: application/json
+
+{"usuario": "ab", "contrasena": "123"}
+
+### Login correcto
+POST http://localhost:8080/fixhome-api/api/login
+Content-Type: application/json
+
+{"usuario": "juanpineda", "contrasena": "clave123"}
+
+### Login con clave equivocada
+POST http://localhost:8080/fixhome-api/api/login
+Content-Type: application/json
+
+{"usuario": "juanpineda", "contrasena": "otra"}
